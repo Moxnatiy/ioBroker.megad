@@ -20,7 +20,7 @@
 /* jshint -W097 */// jshint strict:false
 /*jslint node: true */
 'use strict';
-
+ 
 var utils = require('@iobroker/adapter-core'); // Get common adapter utils
 var http   = require('http');
 var server =  null;
