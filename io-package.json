@@ -1,7 +1,7 @@
 {
     "common": {
         "name":                     "megad",
-        "version":                  "1.3.0",
+        "version":                  "1.3.1",
         "news": {
             "1.2.2": {
                 "en":               "Removed support DHT11 sensors\nAdded hysteresis function (ADC ports and DS18B20 sensors)\nDeleted team tget (request for internal temperature sensor value) is not yet done\nAdded the ability to Smooth to control smooth speed PWM control.",
@@ -17,8 +17,7 @@
         "title":                    "Mega-D Adapter",
         "desc":                     {
             "en": "Lets control the MegaD-328 over ethernet/internet (http://www.ab-log.ru/smart-house/ethernet/megad-328)",
-            "de": "Ermöglicht die steuerung von MegaD-328 über Ethernet/Internet (http://www.ab-log.ru/smart-house/ethernet/megad-328)",
-            "ru": "Позволяет управлять MegaD-328 через ethernet/интернет (http://www.ab-log.ru/smart-house/ethernet/megad-328)"
+            "de": "Ermöglicht die steuerung von MegaD-328 über Ethernet/Internet (http://www.ab-log.ru/smart-house/ethernet/megad-328)"
         },
         "authors": [
             "bluefox <dogafox@gmail.com>"
