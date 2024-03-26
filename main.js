@@ -1707,7 +1707,7 @@ function main() {
     }
     syncObjects();
     adapter.subscribeStates('*');
-    processMessages(true);
+    //processMessages(true);
 }
 
 
