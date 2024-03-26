@@ -104,10 +104,11 @@ adapter.on('message', function (obj) {
                 break;
         }
     }
-    processMessages();
+    //processMessages();
 });
 
-function processMessages(ignore) {
+function processMessages(ignore) { 
+
     adapter.getMessage(function (err, obj) {
         if (obj) {
             if (!ignore && obj && obj.command === 'send') processMessage(obj.message);
